@@ -7,7 +7,7 @@ import chalk
 bot = commands.Bot(command_prefix='pp?')
 
 @bot.event
-aysnc def on_ready():
+async def on_ready():
 	print ("Ready")
 	
 @bot.command(pass_context=True)
